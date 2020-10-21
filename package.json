@@ -1,0 +1,39 @@
+{
+  "name": "easysales_web_socket.nosync",
+  "version": "1.0.0",
+  "description": "EasySales Socket Bridge",
+  "main": "index.js",
+  "dependencies": {
+    "@types/lodash": "^4.14.149",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "mysql": "^2.18.1",
+    "socket.io": "^2.0.3",
+    "uuid": "^3.1.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "client": "nodemon ./__test__/client.js"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.0",
+    "nodemon": "^1.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjm918/EasySales_Web_Socket.git"
+  },
+  "keywords": [
+    "es",
+    "esv2",
+    "easysales",
+    "easysale_cms"
+  ],
+  "author": "Mohammad Julfikar Mahmud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjm918/EasySales_Web_Socket/issues"
+  },
+  "homepage": "https://github.com/mjm918/EasySales_Web_Socket#readme"
+}
